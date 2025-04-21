@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from edwardskeletrix.com/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 21 Apr 2025 01:23:12 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <title>Edward Skeletrix</title>
+    <link rel="icon" href="assets/webp/favicon.webp"/>
+    <link rel="preload" as="style" href="theme.css">
+    <link rel="preload" as="image" href="assets/webp/garments_2.webp">
+    <link rel="preload" as="image" href="assets/webp/hubert_menu.webp">
+    <link rel="preload" as="image" href="assets/webp/banner.webp">
+    <link rel="stylesheet" href="theme.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FE1LP1VTK6"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+        gtag('config', 'G-FE1LP1VTK6');
+
+        function unhide() {
+            scrollElement.querySelector(".onclick-hide").style.display = 'none';
+            scrollElement.querySelectorAll(".initial-hide").forEach((e) => {
+                e.style.opacity = '1';
+                e.style.height = 'auto';
+            });
+            handleAvatarRows();
+        }
+
+        function unhideHeader() {
+            scrollElement.querySelector(".header-hide").style.display = 'none';
+            scrollElement.querySelectorAll(".initial-header-hide").forEach((e) => {
+                e.style.opacity = '1';
+                e.style.display = 'flex';
+            });
+            handleAvatarRows();
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+<main id="main" role="main">
+    <div class="portal-wrapper">
+        <section>
+            <div>
+                <div id="avatars-scroll" class="small-visible">
+                    <div class="avatars skip_rot" style="justify-content: center;">
+                        <div class="avatar-wrap skip_rot">
+                            <div class="avatar skip_rot">
+                                <div class="avatar-swap banner"></div>
+                                <a class="banner-swap" id="banner"
+                                   href="index-2.html" target="_blank" rel="noopener noreferrer"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="avatars skip_rot" style="justify-content: center">
+                        <div class="avatar-wrap skip_rot hubert">
+                            <div class="avatar skip_rot">
+                                <div class="avatar-swap skip_rot"></div>
+                                <a onclick="gtag('event', 'go_banner', {});" class="banner-swap" id="merch-1"
+                                   href="https://www.laylo.com/edwardskeletrix" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <!-- <div class="avatar-text skip_rot"><p style="letter-spacing: unset; padding-top: 5vh;">
+                            </p></div> -->
+                        </div>
+                    </div>
+
+                    <div class="avatars avatar-focus" id="avatar-onload" style="padding-top: 5vh;">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="garments-2"></div>
+                                <a onclick="gtag('event', 'go_syckli', {});" class="avatar-default" id="garments-1"
+                                   href="https://syckli.com/" target="_blank" rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Clothing</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars onclick-hide">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="music-2"></div>
+                                <a class="avatar-default" id="music-1" onclick="unhide()"></a>
+                            </div>
+                            <div class="avatar-text"><p>Music</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars initial-hide">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="soundcloud-2"></div>
+                                <a class="avatar-default" id="soundcloud-1"
+                                   href="https://soundcloud.com/edwardskeletrix" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>SoundCloud</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars initial-hide">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="apple-music-2"></div>
+                                <a class="avatar-default" id="apple-music-1"
+                                   href="https://music.apple.com/us/artist/edward-skeletrix/1692437544" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Apple Music</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars initial-hide">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="spotify-2"></div>
+                                <a class="avatar-default" id="spotify-1"
+                                   href="https://open.spotify.com/artist/0xWlWvXGQve3reUhtjlPrS" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Spotify</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="photography-2"></div>
+                                <a onclick="gtag('event', 'go_photography', {});" class="avatar-default"
+                                   id="photography-1"
+                                   href="https://instagram.com/yuzuriah?igshid=MzRIODbiNWFIZA%3D%3D" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Photography</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="paintings-2"></div>
+                                <a onclick="gtag('event', 'go_paintings', {});" class="avatar-default" id="paintings-1"
+                                   href="https://www.instagram.com/Peintures762o31/" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Paintings</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="furniture-2"></div>
+                                <a onclick="gtag('event', 'go_furniture', {});" class="avatar-default" id="furniture-1"
+                                   href="https://www.instagram.com/Peintures762o31/" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Furniture</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="videography-2"></div>
+                                <a onclick="gtag('event', 'go_videography', {});" class="avatar-default"
+                                   id="videography-1"
+                                   href="https://www.youtube.com/@EdwardSkeletrix/videos" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Videography</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="instagram-2"></div>
+                                <a onclick="gtag('event', 'go_instagram', {});" class="avatar-default" id="instagram-1"
+                                   href="https://instagram.com/yuzuriah" target="_blank" rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Instagram</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="twitter-2"></div>
+                                <a onclick="gtag('event', 'go_twitter', {});"
+                                   class="avatar-default" id="twitter-1" href="https://twitter.com/EdwardSkeletrix"
+                                   target="_blank" rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>Twitter</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap" id="youtube-2"></div>
+                                <a onclick="gtag('event', 'go_youtube', {});"
+                                   class="avatar-default" id="youtube-1"
+                                   href="https://www.youtube.com/@EdwardSkeletrix/videos" target="_blank"
+                                   rel="noopener noreferrer"></a>
+                            </div>
+                            <div class="avatar-text"><p>YouTube</p></div>
+                        </div>
+                    </div>
+                    <div class="avatars">
+                        <div class="avatar-wrap">
+                            <div class="avatar">
+                                <div class="avatar-swap"></div>
+                            </div>
+                            <div class="avatar-text"><p></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script>
+            function debounce(fn, delay = 100, options = {}) {
+                let timerId;
+                return (...args) => {
+                    const {leading = false, trailing = true} = options;
+                    const callNow = leading && !timerId;
+                    clearTimeout(timerId);
+                    timerId = setTimeout(() => {
+                        if (trailing || callNow) {
+                            fn(...args);
+                        }
+                        timerId = undefined;
+                    }, delay);
+                    if (callNow) {
+                        fn(...args);
+                    }
+                };
+            }
+
+            const scrollElement = document.getElementById("avatars-scroll");
+            const topBarElement = document.getElementById('merch-1');
+            const avatarRows = Array.from(scrollElement.querySelectorAll(".avatars"));
+            const avatarWidth = (window.innerWidth - 4) / 2;
+            const midway = (scrollElement.offsetHeight / 2);
+
+            function handleAvatarRows() {
+                const scrollTop = scrollElement.scrollTop;
+                avatarRows.forEach((avatarRow) => {
+                    if (!avatarRow.classList.contains("skip_rot")) {
+                        const avatarCenter = avatarRow.offsetTop + avatarRow.offsetHeight / 2;
+                        const dToWrapCenter = Math.round(avatarCenter - scrollTop - midway);
+                        const delta = Math.abs(dToWrapCenter);
+                        avatarRow.classList.toggle("avatar-focus", delta < avatarWidth / 2);
+                        const setTransitionZ = -delta;
+                        // avatarRow.style.setProperty("filter", `brightness(${delta / 2000 + 1})`);
+                        avatarRow.style.setProperty("z-index", `${setTransitionZ}`);
+                        avatarRow.style.setProperty("transform", `translate3d(0,${dToWrapCenter / 2}px,${setTransitionZ}px)`);
+                    }
+                });
+            }
+
+            const wrapDebounce = (fn) => debounce(fn, 0, {leading: true});
+
+            handleAvatarRows();
+            let timeoutId;
+            scrollElement.addEventListener("scroll", wrapDebounce(handleAvatarRows), {passive: true});
+            scrollElement.addEventListener("scroll", wrapDebounce(() => {
+                topBarElement.style.backgroundImage = 'url(assets/header.png)';
+                if (timeoutId) clearTimeout(timeoutId);
+                timeoutId = setTimeout(() => {
+                    topBarElement.style.backgroundImage = 'url(assets/header.png)'
+                }, 1000);
+            }), {passive: true});
+            scrollElement.addEventListener('scrollend', wrapDebounce(() => {
+                topBarElement.style.backgroundImage = 'url(assets/header.png)';
+            }), {passive: true});
+            scrollElement.addEventListener('touchend', wrapDebounce(() => {
+                topBarElement.style.backgroundImage = 'url(assets/header.png)';
+            }), {passive: true});
+        </script>
+
+    </div>
+</main>
+</body>
