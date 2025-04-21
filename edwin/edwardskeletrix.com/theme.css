@@ -1,13 +1,5 @@
 @charset "utf-8";
 
-@font-face {
-    font-family: "ModernRegular";
-    url(assets/font.woff2) format('woff2'),
-}
-
-.active {
-    height: auto;
-}
 
 .widget-wrapper {
     padding-top: 44px;
