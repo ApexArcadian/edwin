@@ -9,7 +9,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-image: url(assets/webp/banner.webp);
+    background-image: url(assets/webp/Asset_74x-8.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -345,12 +345,13 @@
     perspective-origin: 50% 50%;
     perspective: 25vh;
 
-    background: url(./assets/webp/IMG_6816.jpg);
+    background: url(./assets/webp/IMG_6818.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: local;
     background-position-x: center;
     background-position-y: top;
+
 }
 
 article,
