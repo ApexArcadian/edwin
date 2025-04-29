@@ -344,6 +344,13 @@
     overflow-y: scroll;
     perspective-origin: 50% 50%;
     perspective: 25vh;
+
+    background: url(./assets/webp/IMG_6816.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 article,
@@ -353,7 +360,9 @@ figcaption,
 figure,
 footer,
 header,
-main,
+main {
+    
+},
 nav,
 section,
 summary {
@@ -564,13 +573,12 @@ body {
     font-weight: var(--text-font-weight);
     font-style: var(--text-font-style);
     color: var(--text-color);
-    background: url(/edwin/edwardskeletrix.com/assets/webp/IMG_6816.jpg);
     line-height: 1.65;
     margin: 0;
 }
 
 .portal-wrapper {
-    background-color: transparent !important;
+
     overflow: initial !important;
 }
 
