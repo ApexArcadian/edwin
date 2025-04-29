@@ -564,7 +564,7 @@ body {
     font-weight: var(--text-font-weight);
     font-style: var(--text-font-style);
     color: var(--text-color);
-    background: var(--background);
+    background: url(/edwin/edwardskeletrix.com/assets/webp/IMG_6816.jpg);
     line-height: 1.65;
     margin: 0;
 }
