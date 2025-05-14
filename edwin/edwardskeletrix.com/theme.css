@@ -35,27 +35,27 @@
 }
 
 #garments-1 {
-    background-image: url(assets/webp/garments_1.webp);
+    background-image: url(assets/webp/datadatadata__cf5f34b3-3733-4d9c-a0a4-f5fbce23e5e3.png);
     background-size: 100%;
 }
 
 #garments-2 {
-    background-image: url(assets/webp/garments_2.webp);
+    background-image: url(assets/webp/datadatadata__cf5f34b3-3733-4d9c-a0a4-f5fbce23e5e3.png);
     background-size: 100%;
 }
 
 #music-1 {
-    background-image: url(assets/webp/music_1.webp);
+    background-image: url(assets/webp/halloween-music-2-1100142.webp);
     background-size: 100%;
 }
 
 #music-2 {
-    background-image: url(assets/webp/music_2.webp);
+    background-image: url(assets/webp/Music-Note-key-on-transparent-background-PNG.webp);
     background-size: 100%;
 }
 
 #soundcloud-1 {
-    background-image: url(assets/webp/soundcloud_2.webp);
+    background-image: url(assets/webp/artbreeder-image-2025-05-14T18_35_04.854Z.jpeg);
     background-size: 100%;
 }
 
@@ -84,11 +84,11 @@
     background-size: 100%;
 }
 
-#photography-1 {
+#customersupport-1 {
     background-image: url(assets/webp/photography_1.webp);
 }
 
-#photography-2 {
+#customersupport-2 {
     background-image: url(assets/webp/photography_2.webp);
 }
 
@@ -188,6 +188,7 @@
     -ms-flex-align: center;
     align-items: center;
     scroll-behavior: smooth;
+    overflow-y: scroll;
 }
 
 .avatars {
@@ -250,6 +251,8 @@
 }
 
 .avatar {
+    -moz-transition: width 0.1s, height 0.1s;
+    transition: width 0.1s, height 0.1s;
     height: 100%;
     width: 100%;
 }
@@ -341,11 +344,12 @@
 
 #avatars-scroll {
     height: 100vh;
+    scroll-behavior: smooth;
     overflow-y: scroll;
     perspective-origin: 50% 50%;
     perspective: 25vh;
 
-    background: url(./assets/webp/IMG_6818.jpg);
+    background: url(./assets/webp/hallway.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: local;
