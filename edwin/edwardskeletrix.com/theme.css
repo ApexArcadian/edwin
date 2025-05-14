@@ -75,7 +75,7 @@
 }
 
 #hoodies-1{
-    background-image: url(assets/webp/);
+    background-image: url(assets/webp/IMG_8432.jpg);
     background-size: 100%;
 }
 
@@ -761,13 +761,13 @@ body {
         height: 100%;
     }
 }
-
+/* 
 .initial-hide {
     transition: opacity 1s ease-out;
     opacity: 0;
     height: 0;
 }
-
+ */
 .initial-header-hide {
     display: none;
     transition: opacity 1s ease-out;
