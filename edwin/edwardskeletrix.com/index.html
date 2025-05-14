@@ -54,7 +54,7 @@
                             <div class="avatar-wrap skip_rot">
                                 <div class="avatar skip_rot">
                                     <div class="avatar-swap banner"></div>
-                                    <a class="banner-swap" id="banner" href="index-2.html" target="_blank"
+                                    <a class="banner-swap" id="banner" href="index.html" target="_blank"
                                         rel="noopener noreferrer"></a>
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                 <div class="avatar skip_rot">
                                     <div class="avatar-swap skip_rot"></div>
                                     <a onclick="gtag('event', 'go_banner', {});" class="banner-swap" id="merch-1"
-                                        href="https://www.laylo.com/edwardskeletrix" target="_blank"
+                                        href="#" target="_blank"
                                         rel="noopener noreferrer"></a>
                                 </div>
                                 <!-- <div class="avatar-text skip_rot"><p style="letter-spacing: unset; padding-top: 5vh;">
@@ -75,9 +75,9 @@
                         <div class="avatars avatar-focus" id="avatar-onload" style="padding-top: 5vh;">
                             <div class="avatar-wrap">
                                 <div class="avatar">
-                                    <div class="avatar-swap" id="garments-2"></div>
-                                    <a onclick="gtag('event', 'go_syckli', {});" class="avatar-default" id="garments-1"
-                                        href="https://syckli.com/" target="_blank" rel="noopener noreferrer"></a>
+                                    <div class="avatar-swap" id="tshirts-2"></div>
+                                    <a onclick="gtag('event', 'go_syckli', {});" class="avatar-default" id="tshirts-1"
+                                        href="#" target="_blank" rel="noopener noreferrer"></a>
                                 </div>
                                 <div class="avatar-text">
                                     <p>T-Shirts</p>
@@ -87,8 +87,8 @@
                         <div class="avatars onclick-hide">
                             <div class="avatar-wrap">
                                 <div class="avatar">
-                                    <div class="avatar-swap" id="music-2"></div>
-                                    <a class="avatar-default" id="music-1" onclick="unhide()"></a>
+                                    <div class="avatar-swap" id="accessories-2"></div>
+                                    <a class="avatar-default" id="accessories-1" onclick="unhide()"></a>
                                 </div>
                                 <div class="avatar-text">
                                     <p>Accessories</p>
@@ -98,9 +98,9 @@
                         <div class="avatars initial-hide">
                             <div class="avatar-wrap">
                                 <div class="avatar">
-                                    <div class="avatar-swap" id="soundcloud-2"></div>
-                                    <a class="avatar-default" id="soundcloud-1"
-                                        href="https://soundcloud.com/edwardskeletrix" target="_blank"
+                                    <div class="avatar-swap" id="pants-2"></div>
+                                    <a class="avatar-default" id="pants-1"
+                                        href="#" target="_blank"
                                         rel="noopener noreferrer"></a>
                                 </div>
                                 <div class="avatar-text">
@@ -111,9 +111,9 @@
                         <div class="avatars initial-hide">
                             <div class="avatar-wrap">
                                 <div class="avatar">
-                                    <div class="avatar-swap" id="apple-music-2"></div>
-                                    <a class="avatar-default" id="apple-music-1"
-                                        href="https://music.apple.com/us/artist/edward-skeletrix/1692437544"
+                                    <div class="avatar-swap" id="shorts-2"></div>
+                                    <a class="avatar-default" id="shorts-1"
+                                        href="#"
                                         target="_blank" rel="noopener noreferrer"></a>
                                 </div>
                                 <div class="avatar-text">
@@ -124,9 +124,9 @@
                         <div class="avatars initial-hide">
                             <div class="avatar-wrap">
                                 <div class="avatar">
-                                    <div class="avatar-swap" id="spotify-2"></div>
-                                    <a class="avatar-default" id="spotify-1"
-                                        href="https://open.spotify.com/artist/0xWlWvXGQve3reUhtjlPrS" target="_blank"
+                                    <div class="avatar-swap" id="hoodies-2"></div>
+                                    <a class="avatar-default" id="hoodies-1"
+                                        href="#"_blank"
                                         rel="noopener noreferrer"></a>
                                 </div>
                                 <div class="avatar-text">
@@ -140,7 +140,7 @@
                                     <div class="avatar-swap" id="customersupport-2"></div>
                                     <a onclick="gtag('event', 'go_photography', {});" class="avatar-default"
                                         id="customersupport-1"
-                                        href="https://instagram.com/yuzuriah?igshid=MzRIODbiNWFIZA%3D%3D"
+                                        href="#"
                                         target="_blank" rel="noopener noreferrer"></a>
                                 </div>
                                 <div class="avatar-text">
@@ -296,20 +296,20 @@
 
                 handleAvatarRows();
                 let timeoutId;
-                scrollElement.addEventListener("scroll", wrapDebounce(handleAvatarRows), { passive: true });
+                scrollElement.addEventListener("scroll", wrapDebounce(handleAvatarRows), { passive: false});
                 scrollElement.addEventListener("scroll", wrapDebounce(() => {
                     topBarElement.style.backgroundImage = 'url(assets/header.png)';
                     if (timeoutId) clearTimeout(timeoutId);
                     timeoutId = setTimeout(() => {
                         topBarElement.style.backgroundImage = 'url(assets/header.png)'
                     }, 1000);
-                }), { passive: true });
+                }), { passive: false});
                 scrollElement.addEventListener('scrollend', wrapDebounce(() => {
                     topBarElement.style.backgroundImage = 'url(assets/header.png)';
-                }), { passive: true });
+                }), { passive: false});
                 scrollElement.addEventListener('touchend', wrapDebounce(() => {
                     topBarElement.style.backgroundImage = 'url(assets/header.png)';
-                }), { passive: true });
+                }), { passive: false });
             </script>
 
         </div>
