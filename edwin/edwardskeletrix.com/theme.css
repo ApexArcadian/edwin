@@ -35,47 +35,47 @@
 }
 
 #tshirts-1{
-    background-image: url(assets/webp/datadatadata__cf5f34b3-3733-4d9c-a0a4-f5fbce23e5e3.png);
+    background-image: url(assets/webp/shirts2.gif);
     background-size: 100%;
 }
 
 #tshirts-2 {
-    background-image: url(assets/webp/datadatadata__cf5f34b3-3733-4d9c-a0a4-f5fbce23e5e3.png);
+    background-image: url(assets/webp/shirts2.gif);
     background-size: 100%;
 }
 
 #accessories-1 {
-    background-image: url(assets/webp/datadatadata__4d5251ca-f015-45dd-99e6-ba970469a49d.png);
+    background-image: url(assets/webp/accessories.gif);
     background-size: 100%;
 }
 
 #accessories-2{
-    background-image: url(assets/webp/datadatadata__4d5251ca-f015-45dd-99e6-ba970469a49d.png);
+    background-image: url(assets/webp/accessories.gif);
     background-size: 100%;
 }
 
 #pants-1{
-    background-image: url(assets/webp/datadatadata__9ebca818-e705-4ad6-9672-f633f6f63721.png);
+    background-image: url(assets/webp/pants.gif);
     background-size: 100%;
 }
 
 #pants-2{
-    background-image: url(assets/webp/datadatadata__9ebca818-e705-4ad6-9672-f633f6f63721.png);
+    background-image: url(assets/webp/pants.gif);
     background-size: 100%;
 }
 
 #shorts-1{
-    background-image: url(assets/webp/datadatadata__fe9860ca-5ce2-4ac3-ae42-35321c08f816.png);
+    background-image: url(assets/webp/shorts.gif);
     background-size: 100%;
 }
 
 #shorts-2{
-    background-image: url(assets/webp/datadatadata__fe9860ca-5ce2-4ac3-ae42-35321c08f816.png);
+    background-image: url(assets/webp/shorts.gif);
     background-size: 100%;
 }
 
 #hoodies-1{
-    background-image: url(assets/webp/IMG_8432.jpg);
+    background-image: url(assets/webp/datadatadata__9aac165f-d3ae-4b7f-ab4a-38da0ebe6360.png);
     background-size: 100%;
 }
 
@@ -85,11 +85,11 @@
 }
 
 #customersupport-1 {
-    background-image: url(assets/webp/datadatadata__76ef2bc8-c482-453d-8767-4623e597476b.png);
+    background-image: url(assets/webp/customerservice.gif);
 }
 
 #customersupport-2 {
-    background-image: url(assets/webp/datadatadata__76ef2bc8-c482-453d-8767-4623e597476b.png);
+    background-image: url(assets/webp/customerservice.gif);
 }
 
 #paintings-1 {
@@ -302,7 +302,7 @@
     text-align: center;
     font-size: 20px;
     line-height: 1.2;
-    text-shadow: #c0c0c0 1px 0 10px;
+    text-shadow: #000000 1px 0 10px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
