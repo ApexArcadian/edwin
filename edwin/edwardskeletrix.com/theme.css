@@ -6,6 +6,8 @@
 }
 
 #banner {
+    -webkit-filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
+    filter: drop-shadow(1px 1px 0 white) drop-shadow(-1px -1px 0 white);
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -34,7 +36,7 @@
     background-size: 100%;
 }
 
-#tshirts-1{
+#tshirts-1 {
     background-image: url(assets/webp/shirts.gif);
     background-size: 100%;
 }
@@ -49,37 +51,37 @@
     background-size: 100%;
 }
 
-#accessories-2{
+#accessories-2 {
     background-image: url(assets/webp/accessories2.gif);
     background-size: 100%;
 }
 
-#pants-1{
+#pants-1 {
     background-image: url(assets/webp/pants.gif);
     background-size: 100%;
 }
 
-#pants-2{
+#pants-2 {
     background-image: url(assets/webp/pants.gif);
     background-size: 100%;
 }
 
-#shorts-1{
+#shorts-1 {
     background-image: url(assets/webp/shorts2.gif);
     background-size: 100%;
 }
 
-#shorts-2{
+#shorts-2 {
     background-image: url(assets/webp/shorts2.gif);
     background-size: 100%;
 }
 
-#hoodies-1{
+#hoodies-1 {
     background-image: url(assets/webp/hoodies.gif);
     background-size: 100%;
 }
 
-#hoodies-2{
+#hoodies-2 {
     background-image: url(assets/webp/hoodies.gif);
     background-size: 100%;
 }
@@ -138,12 +140,27 @@
 }
 
 @keyframes tilt-shaking {
-    0% { transform: rotate(0deg); }
-    25% { transform: rotate(5deg); }
-    50% { transform: rotate(0deg); }
-    75% { transform: rotate(-5deg); }
-    100% { transform: rotate(0deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(5deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+
+    75% {
+        transform: rotate(-5deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
+
 #merch-1 {
     background-image: url(assets/header.png);
     background-size: 100%;
@@ -169,7 +186,8 @@
     height: auto;
 }
 
-.avatars-scroll-container, .avatars-wrap {
+.avatars-scroll-container,
+.avatars-wrap {
     height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -287,11 +305,13 @@
     /* filter: blur(1px); */
 }
 
-.avatar-default, .avatar-wrap:hover .avatar-swap {
+.avatar-default,
+.avatar-wrap:hover .avatar-swap {
     opacity: 1;
 }
 
-.avatar-wrap:hover .avatar-default, .avatar-swap {
+.avatar-wrap:hover .avatar-default,
+.avatar-swap {
     opacity: 0;
 }
 
@@ -314,6 +334,7 @@
 }
 
 @media screen and (min-width: 641px) and (max-width: 1000px) {
+
     /*.large-visible, .small-visible {
         display: none;
     }*/
@@ -349,8 +370,8 @@
     perspective-origin: 50% 50%;
     perspective: 25vh;
 
-    background: url(./assets/webp/hallway.jpg);
-    background-size: cover;
+    background: url(./assets/webp/artbreeder-upscale\ \(1\).png);
+    background-size:100% 100%;
     background-repeat: no-repeat;
     background-attachment: local;
     background-position-x: center;
@@ -365,9 +386,9 @@ figcaption,
 figure,
 footer,
 header,
-main {
-    
-},
+main {}
+
+,
 nav,
 section,
 summary {
@@ -384,7 +405,8 @@ summary {
     margin-bottom: 220px;
 }
 
-.large-visible, .mid-visible {
+.large-visible,
+.mid-visible {
     display: none;
 }
 
@@ -444,9 +466,7 @@ summary {
     color: #ffffffcc;
 }
 
-.animate-character {
-
-}
+.animate-character {}
 
 @keyframes textclip {
     to {
@@ -497,7 +517,8 @@ a {
     text-decoration: none;
 }
 
-a:active, a:hover {
+a:active,
+a:hover {
     outline: 0;
 }
 
@@ -603,12 +624,12 @@ body {
     display: block;
 }
 
-.AspectRatio > img {
+.AspectRatio>img {
     max-height: 100%;
     max-width: 100%;
 }
 
-.AspectRatio--withFallback > img {
+.AspectRatio--withFallback>img {
     position: absolute;
     top: 0;
     left: 0;
@@ -617,17 +638,19 @@ body {
 }
 
 @supports (--css: variables) {
+
     /* For dynamic one, we use CSS variables, which makes it only compatible for newer browsers */
     .AspectRatio--withFallback {
-        padding-bottom: 0 !important; /* For older browsers we use the padding-bottom trick, so make sure to remove it here */
+        padding-bottom: 0 !important;
+        /* For older browsers we use the padding-bottom trick, so make sure to remove it here */
     }
 
     .AspectRatio::before {
         padding-bottom: calc(100% / (var(--aspect-ratio)));
     }
 
-    .AspectRatio > img,
-    .no-js .AspectRatio > noscript img {
+    .AspectRatio>img,
+    .no-js .AspectRatio>noscript img {
         position: absolute;
         top: 0;
         left: 0;
@@ -648,9 +671,9 @@ body {
     padding-bottom: 150%;
 }
 
-.AspectRatio--square > img,
-.AspectRatio--short > img,
-.AspectRatio--tall > img {
+.AspectRatio--square>img,
+.AspectRatio--short>img,
+.AspectRatio--tall>img {
     position: absolute;
     width: auto;
     height: auto;
@@ -662,9 +685,10 @@ body {
 }
 
 @supports ((-o-object-fit: contain) or (object-fit: contain)) {
-    .AspectRatio--square > img,
-    .AspectRatio--short > img,
-    .AspectRatio--tall > img {
+
+    .AspectRatio--square>img,
+    .AspectRatio--short>img,
+    .AspectRatio--tall>img {
         width: 100%;
         height: 100%;
         -o-object-fit: contain;
@@ -673,7 +697,8 @@ body {
 }
 
 .Image--lazyLoad[data-sizes=auto] {
-    width: 100%; /* this is needed to help LazySizes calculate the correct size */
+    width: 100%;
+    /* this is needed to help LazySizes calculate the correct size */
 }
 
 .PageContent {
@@ -715,15 +740,15 @@ body {
         margin: 145px 0;
     }
 
-    .shopify-section--bordered > .Section--spacingNormal {
+    .shopify-section--bordered>.Section--spacingNormal {
         padding: 80px 0;
     }
 
-    .shopify-section--bordered > .Section--spacingLarge {
+    .shopify-section--bordered>.Section--spacingLarge {
         padding: 120px 0;
     }
 
-    .shopify-section--bordered > .Section--spacingExtraLarge {
+    .shopify-section--bordered>.Section--spacingExtraLarge {
         padding: 145px 0;
     }
 
@@ -749,8 +774,7 @@ body {
     width: 100%;
 }
 
-.banner {
-}
+.banner {}
 
 .hubert {
     height: 50%;
@@ -761,6 +785,7 @@ body {
         height: 100%;
     }
 }
+
 /*  
 .initial-hide {
     transition: opacity 1s ease-out;
