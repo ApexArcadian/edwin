@@ -35,22 +35,22 @@
 }
 
 #tshirts-1{
-    background-image: url(assets/webp/shirts2.gif);
+    background-image: url(assets/webp/shirts.gif);
     background-size: 100%;
 }
 
 #tshirts-2 {
-    background-image: url(assets/webp/shirts2.gif);
+    background-image: url(assets/webp/shirts.gif);
     background-size: 100%;
 }
 
 #accessories-1 {
-    background-image: url(assets/webp/accessories.gif);
+    background-image: url(assets/webp/accessories2.gif);
     background-size: 100%;
 }
 
 #accessories-2{
-    background-image: url(assets/webp/accessories.gif);
+    background-image: url(assets/webp/accessories2.gif);
     background-size: 100%;
 }
 
@@ -65,31 +65,31 @@
 }
 
 #shorts-1{
-    background-image: url(assets/webp/shorts.gif);
+    background-image: url(assets/webp/shorts2.gif);
     background-size: 100%;
 }
 
 #shorts-2{
-    background-image: url(assets/webp/shorts.gif);
+    background-image: url(assets/webp/shorts2.gif);
     background-size: 100%;
 }
 
 #hoodies-1{
-    background-image: url(assets/webp/datadatadata__9aac165f-d3ae-4b7f-ab4a-38da0ebe6360.png);
+    background-image: url(assets/webp/hoodies.gif);
     background-size: 100%;
 }
 
 #hoodies-2{
-    background-image: url(assets/webp/datadatadata__9aac165f-d3ae-4b7f-ab4a-38da0ebe6360.png);
+    background-image: url(assets/webp/hoodies.gif);
     background-size: 100%;
 }
 
 #customersupport-1 {
-    background-image: url(assets/webp/customerservice.gif);
+    background-image: url(assets/webp/customerservice2.gif);
 }
 
 #customersupport-2 {
-    background-image: url(assets/webp/customerservice.gif);
+    background-image: url(assets/webp/customerservice2.gif);
 }
 
 #paintings-1 {
@@ -441,7 +441,7 @@ summary {
 .avatar-text p {
     font-size: 1.2em;
     letter-spacing: 0.15em;
-    color: var(--text-color);
+    color: #ffffffcc;
 }
 
 .animate-character {
@@ -761,13 +761,13 @@ body {
         height: 100%;
     }
 }
-/* 
+/*  
 .initial-hide {
     transition: opacity 1s ease-out;
     opacity: 0;
     height: 0;
-}
- */
+} */
+
 .initial-header-hide {
     display: none;
     transition: opacity 1s ease-out;
